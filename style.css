@@ -32,6 +32,10 @@ article {
     padding: 10px;
 }
 
+article:hover {
+    background-color: darkgrey;
+}
+
 h2::after {
     content: url(file:///C:/Users/Valya%20Hysko/Downloads/product.img.svg);
 }
