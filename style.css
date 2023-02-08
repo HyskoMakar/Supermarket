@@ -1,0 +1,76 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: aquamarine;
+}
+
+.icon::before {
+    content: url(file:///C:/Users/Valya%20Hysko/Downloads/image%201.svg);
+    margin: 10px
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article {
+    align-items: center;
+    display: flex;
+    height: 140px;
+    width: 110px;
+    border: 5px double lightgreen;
+    margin: 30px;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+h2::after {
+    content: url(file:///C:/Users/Valya%20Hysko/Downloads/product.img.svg);
+}
+
+.first::before {
+    content: url(file:///C:/Users/Valya%20Hysko/Downloads/phone.img.svg);
+    margin: 30px;
+}
+
+.second::before {
+    content: url(file:///C:/Users/Valya%20Hysko/Downloads/tablet.img.svg);
+    margin: 30px;
+}
+
+.third::before {
+    content: url(file:///C:/Users/Valya%20Hysko/Downloads/books.img.svg);
+    margin: 30px;
+}
+
+.fourth::before {
+    content: url(file:///C:/Users/Valya%20Hysko/Downloads/joystick.img.svg);
+    margin: 30px;
+}
+
+.slogan::before {
+    content: url(file:///C:/Users/Valya%20Hysko/Downloads/like.img.svg);
+}
+
+.slogan::after {
+    content: url(file:///C:/Users/Valya%20Hysko/Downloads/like.img.svg);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.slogan {
+    border: 3px dotted lemonchiffon;
+    text-align: center;
+    width: 450px;
+}
